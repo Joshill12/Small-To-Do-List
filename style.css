@@ -1,0 +1,60 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: rgb(183, 144, 144);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container{
+    padding-top: 160px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+input{
+    height: 40px;
+    width: 240px;
+    border: 2px solid black;
+    font-size: 18px;
+    padding-left: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background: white;
+    outline: 0;
+}
+
+#toDoBtn{
+    height: 40px;
+    width: 70px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 19px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background: white;
+}
+
+#toDoBtn:hover{
+    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.572);
+}
+
+.list-styling{
+    cursor: pointer;
+    font-size: 20px;
+    text-align:left;
+    margin-top: 15px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.to-dos{
+    padding-left:30%;
+    padding-right:30%;
+
+}
